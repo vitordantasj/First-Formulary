@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario1.css">
+    <title>Formulário</title>
+</head>
+<body>
+            <!--TÍTULO-->
+
+    <div class="loginbox">    
+    <h2 class="logintitle">Login</h2>
+
+            <!--CAIXA DE LOGIN-->
+
+    <form action="formulario1/receiving.html" method="get"> 
+            
+        <div class="info">
+        <label> Nome Completo:
+            <input id="nomebox" type="text" name="nome"/>
+        </label><br>
+
+        <label> E-mail:  
+            <input id="emailbox" type="text" name="email"/>
+        </label><br>
+       
+        <label> Senha:
+            <input id="senhabox" type="password" name="password"/>
+        </label><br>
+
+        <label> Sexo:
+            <input type="radio" name="sexo"/>Feminino
+            <input type="radio" name="sexo"/>Masculino
+        </label><br>
+
+        <label> Data:
+            <input type="date" name="data"/>
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="termos"/>
+            Eu li e concordo com os <a class="termos" href="#" target="_blank">termos de uso.</a>
+        </label><br>
+
+        <label> Profissão:
+        <select name="profissao">
+            <option value="0">Selecione</option>
+            <option value="front">Front-end developer</option>
+            <option value="back">Back-end developer</option>
+            <option value="full">Fullstack</option>
+        
+        </select>
+        </label>
+        <br>
+        
+                <div id="button">
+                        <input type="submit" class="inbutton" value="Enviar" name="enviarInfo" />
+                </div>
+        </div>
+
+    </div>
+
+    </form>
+            <!--FINAL DO FORMULÁRIO-->
+
+</body>
+</html>
