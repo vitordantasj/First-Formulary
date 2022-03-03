@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+h2 {
+    padding: 15px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(45deg, red, blue);
+    width: 100%;
+    height: 100%;   
+}
+
+.loginbox {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    background: rgba( 255, 255, 255, .2);
+    margin: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px black;
+    
+}
+
+.logintitle {
+    padding-top: 22px;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+#nomebox {
+    width: 200px;
+    outline: 0;
+}
+
+#emailbox {
+    width: 279px;
+    outline: 0;
+}
+
+#senhabox {
+    width: 282px;
+    outline: 0;
+}
+
+#button {
+    margin-left: 140px;
+    margin-top: 18px;
+    
+}
+
+.inbutton {
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+}
+
+.inbutton:hover {
+    background-color: #DDD;
+}
+
+.info {
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: left;
+}
+
+.termos {
+    color: black;
+    text-decoration: none;
+}
+
+.termos:hover{
+    text-decoration: underline;
+}
